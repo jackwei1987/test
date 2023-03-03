@@ -15,6 +15,6 @@ try:
             print("We'll remember you when you come back, obj2" + user_name + "!")
 
 except FileNotFoundError:
-    with open(filename, "x") as obj3:
-        json.dump(user_name, obj3)
+    with open(filename, "x") as obj1:
+        json.dump(user_name, obj1)
         print("We'll remember you when you come back, obj3" + user_name + "!")
